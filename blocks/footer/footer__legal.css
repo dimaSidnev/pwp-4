@@ -1,0 +1,12 @@
+.footer__legal{
+    margin: 0;
+    padding-left: 10vw;
+    padding-bottom: 2vh;
+}
+
+.footer__legal_font{
+    font-size: 0.8em;
+    font-weight: 300;
+    font-family: Inter;
+    color: rgba(24,24,24,0.7);
+}

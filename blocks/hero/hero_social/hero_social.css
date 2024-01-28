@@ -1,0 +1,10 @@
+.hero_social{
+    padding-left: 0;
+    list-style: none;
+}
+
+.hero_social_flex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}

@@ -1,0 +1,25 @@
+.footer_positioning{
+    position: relative;
+    z-index: 2;
+    margin-top: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.footer_animation{
+    animation-name: footer_animation;
+    animation-duration: .3s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+}
+
+@keyframes footer_animation{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: -1vh;
+        padding-bottom: 1vh;
+    }
+}

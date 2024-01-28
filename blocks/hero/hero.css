@@ -1,0 +1,21 @@
+.hero_positioning{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 10vw;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.hero_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: start;
+}
+
+.hero_bg_color{
+    background-color: #181818;
+}

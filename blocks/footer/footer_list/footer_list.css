@@ -1,0 +1,17 @@
+.footer_list{
+    margin: 0;
+    list-style: none;
+}
+
+.footer_list_flex{
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: start;
+}
+
+.footer_list_positioning{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
