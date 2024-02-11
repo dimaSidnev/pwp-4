@@ -6,3 +6,8 @@ body{
     font-family: Inter;
     src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
+
+@font-face {
+    font-family: Cyberpunk;
+    src: url(fonts/Cyberpunk_RUS_BY_LYAJKA.ttf);
+}

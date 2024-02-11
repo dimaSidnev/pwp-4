@@ -1,30 +1,29 @@
 .hero__text_wrapper{
     max-width: 80%;
-    min-height: 10vh;
+    min-height: 14vh;
 }
 
 .hero__text_font{
     font-size: 2em;
     font-weight: 800;
     text-transform: uppercase;
-    font-family: Inter;
-    color: #ffff;
+    font-family: Cyberpunk;
+    color: #000000;
+    text-shadow: 1px 1px 2px #00f0ff;
 }
 
-.hero__text_gradient{
-    transition: 1s ease;
+.hero__text_animation{
+    animation: hero__text_glitch 2s 4s linear infinite;
 }
 
-.hero__text_gradient{
-    background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
-    background-size: 200%;
-    background-clip: text;
-    animation: hero__text_gradient 2.5s linear infinite;
-    -webkit-text-fill-color: transparent;
-}
-
-@keyframes hero__text_gradient{
-    to{
-        background-position: 200%;
-    }
+@keyframes hero__text_glitch {
+    0% {
+        text-shadow: -4px 6px 0 red, 4px -6px 0 blue;
+        transform: skew(5deg, 5deg);
+      }
+      2% {
+        text-shadow: 4px -6px 0 red, -4px 6px 0 blue;
+        transform: skew(5deg, 5deg);
+      }
+      4%, 100% {  text-shadow: 1px 1px 2px #00f0ff; transform: none; }
 }

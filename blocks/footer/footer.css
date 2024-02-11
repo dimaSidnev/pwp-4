@@ -10,7 +10,7 @@
     animation-name: footer_animation;
     animation-duration: .3s;
     animation-fill-mode: both;
-    animation-delay: 3s;
+    animation-delay: 4s;
 }
 
 @keyframes footer_animation{

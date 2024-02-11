@@ -8,31 +8,32 @@
 </head>
 <body>
     <main class="hero hero_positioning hero_flex hero_bg_color">
-        <h3 class="hero__logo hero__logo_font hero__logo_hovered">Он самый</h3>
-        <h1 class="hero__text hero__text_wrapper hero__text_font hero__text_gradient hero__text_hovered">Дима Сиднев
-            <span class="typer" id="hero__text" data-words="крутой,смешной,пиздатый,опять крутой" data-delay="100" data-deleteDelay="1000"></span>
+        <h3 class="hero__logo hero__logo_font hero__logo_hovered animate__animated animate__fadeIn animate__delay-4s">Он самый</h3>
+        <h1 class="hero__text hero__text_wrapper hero__text_font hero__text_animation hero__text_hovered">Дима Сиднев
+            <span class="typer" id="hero__text" data-words="начинающий фронтендер, живёт в воронеже, любит киберпанк" data-delay="100" data-deleteDelay="1000"></span>
             <span class="cursor" data-owner="hero__text"></span>
         </h1>
         <div>
             <ul class="hero_social hero_social_flex">
-                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered">Telegram</li>
-                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered">Github</li>
-                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered">LeetCode</li>
+                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered animate__animated animate__fadeIn animate__delay-4s">Telegram</li>
+                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered animate__animated animate__fadeIn animate__delay-4s">Github</li>
+                <li class="hero_social__elem hero_social__elem_font hero_social__elem_hovered animate__animated animate__fadeIn animate__delay-4s">LeetCode</li>
             </ul>
         </div>
     </main>
     <footer class="footer footer_positioning footer_animation">
         <div class="footer_wrapper footer_wrapper_gradient">
+            <div class="footer__border footer__border_image"></div>
             <ul class="footer_list footer_list_flex footer_list_positioning footer__list_gradient">
-                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered">SSCC-18 Gen</li>
-                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered">portfolio-v3</li>
-                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered">portfolio-v2</li>
-                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered">portfolio-v1</li>
+                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered"><a class="footer_list__elem_underline" href="">SSCC-18 Gen</a></li>
+                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered"><a class="footer_list__elem_underline" href="">portfolio-v3</a></li>
+                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered"><a class="footer_list__elem_underline" href="">portfolio-v2</a></li>
+                <li class="footer_list__elem footer_list__elem_font footer_list__elem_hovered"><a class="footer_list__elem_underline" href="">portfolio-v1</a></li>
             </ul>
-            <h6 class="footer__legal footer__legal_font footer__legal_hovered">© Дмитрий Сиднев 2003-2024</h6>
+            <h6 class="footer__legal footer__legal_font footer__legal_hovered">© Дмитрий Сиднев 2024 йоу.</h6>
         </div>
     </footer>
-    <script src="typer_js/typer.js"></script>
+    <script src="libraries/typer.js"></script>
     <script src="blocks/hero/hero__text.js"></script>
     <script src="master.js"></script>
 </body>
