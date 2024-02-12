@@ -1,4 +1,5 @@
 .hero_social{
+    z-index: 3;
     padding-left: 0;
     list-style: none;
 }
@@ -7,4 +8,22 @@
     display: flex;
     justify-content: space-evenly;
     gap: 0.5em;
+}
+
+@media (max-width: 481px) {
+    .hero_social_flex{
+        gap: 0.7em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero_social_flex{
+        gap: 1em;
+    }
+}
+
+@media (min-width: 1025px){
+    .hero_social_flex{
+        gap: 2em;
+    }
 }

@@ -5,12 +5,20 @@
     color: #000000;
 }
 
-.hero__logo_animation{
-    
+@media (max-width: 481px) {
+    .hero__logo_font{
+        font-size: 1.3em;
+    }
 }
 
-@keyframes hero__logo_animation {
-    0%{
-        display: none;
+@media (max-width: 1024px) {
+    .hero__logo_font{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1025px){
+    .hero__logo_font{
+        font-size: 2em;
     }
 }

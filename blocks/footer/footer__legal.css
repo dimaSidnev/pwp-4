@@ -10,3 +10,21 @@
     font-family: Inter;
     color: #00f0ff;
 }
+
+@media (max-width: 481px) {
+    .footer__legal_font{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__legal_font{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1025px){
+    .footer__legal_font{
+        font-size: 1.1em;
+    }
+}

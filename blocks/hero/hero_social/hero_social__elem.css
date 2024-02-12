@@ -4,3 +4,26 @@
     font-family: Inter;
     color: #000000;
 }
+
+.hero_social__elem_decoration{
+    color: #000000;
+    text-decoration: none;
+}
+
+@media (max-width: 481px) {
+    .hero_social__elem_font{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero_social__elem_font{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1025px){
+    .hero_social__elem_font{
+        font-size: 2em;
+    }
+}
